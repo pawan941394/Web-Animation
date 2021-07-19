@@ -1,0 +1,46 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      outline: none;
+  }
+  
+  body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .cards {
+      position: relative;
+      padding: 20px;
+      min-height: 320px;
+      width: 400px;
+      justify-content: center;
+      align-items: center;
+      background-color: #000f42;
+      color: whitesmoke;
+      border-radius: 27px;
+      flex-direction: column;
+  }
+  
+  img {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      max-width: 65vh;
+      position: absolute;
+      margin-top: -19vh;
+      z-index: 100;
+  }
+  
+  body {
+      background-color: black;
+  }
+  
+  .content {
+      display: none;
+  }

@@ -1,0 +1,14 @@
+.card {
+    margin: auto;
+    margin-top: 12vh;
+    color: aqua;
+    border-color: aqua;
+    border-radius: 13px;
+    padding: 12px;
+    max-width: 62vh;
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+}
